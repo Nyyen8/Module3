@@ -1,16 +1,9 @@
-# def average():
-#     score1 = get_score()
-#     score2 = get_score()
-#     score3 = get_score()
-#
-#     return (score1+score2+score3)/3
-
 def average():
-    score1 = input()
-    score2 = input()
-    score3 = input()
-    result = (score1+score2+score3)/3
-    return result
+    score1 = get_score()
+    score2 = get_score()
+    score3 = get_score()
+
+    return (score1+score2+score3)/3
 
 def valid_name_check(input_string):
     result = input_string.replace(" ", "").isalpha()
